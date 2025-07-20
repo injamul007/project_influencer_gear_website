@@ -136,3 +136,18 @@
 }
 /* banner section ends here */
 /* header section ends here */
+
+/*? main section Starts here */
+/* Sponsors section Starts here */
+.sponsors_section {
+  width: 1110px;
+  margin: 80px auto;
+  height: 110px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  place-items: center;
+  border-block: 2px solid #f3f3f3;
+}
+/* Sponsors section ends here */
+/*? main section ends here */
