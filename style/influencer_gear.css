@@ -18,6 +18,23 @@ body {
   --font-size01: 1rem;
 }
 /* css variables */
+/* css btn common property */
+.btn_primary {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size01);
+  border: 0;
+  background-color: var(--pink01);
+  color: var(--white);
+  padding: 10px 24px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.btn_primary:hover {
+  transform: translateX(30px);
+  background-color: #56a6c5;
+  color: black;
+}
+/* css btn common property */
 /* header section starts here */
 .header_section {
   max-width: 1200px;
@@ -109,20 +126,7 @@ body {
 .prebook_btn {
   width: 196px;
   height: 44px;
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size01);
   border-radius: 30px;
-  border: 0;
-  padding: 10px 24px;
-  background-color: var(--pink01);
-  color: var(--white);
-  cursor: pointer;
-  transition: all 0.3s linear;
-}
-.prebook_btn:hover {
-  transform: translateX(30px);
-  background-color: #56a6c5;
-  color: black;
 }
 .img_section {
   width: 475px;
@@ -188,8 +192,10 @@ body {
 .card:hover {
   box-shadow: 0 2px 16px 3px rgba(0, 0, 0, 0.7) ;
 }
-.img_box img{
+.img_box {
   margin-bottom: 12px;
+}
+.img_box img{
   border-radius: 12px;
   transition: transform 0.3s linear;
 }
@@ -240,4 +246,36 @@ body {
   cursor: pointer;
 }
 /* Popular Collection section ends here */
+/* Feature product section Starts here */
+.Feature_product_section {
+  max-width: 1110px;
+  margin: 80px auto;
+  height: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Feature_productions_info {
+  width: 610px;
+  height: 224px;
+}
+.feature_title {
+  font-family: var(--font-family-poppins);
+  font-weight: 700;
+  font-size: 2.3rem;
+  color: #0A0826;
+}
+.feature_subtitle {
+  width: 500px;
+  font-family: var(--font-family-poppins);
+  font-weight: 700;
+  font-size: var(--font-size01);
+  color: var(--dark01);
+  margin-block: 11px;
+}
+.join_now_btn {
+  width: 155px;
+  height: 44px;
+}
+/* Feature product section Ends here */
 /*? main section ends here */
