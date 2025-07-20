@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* css variables */
+:root {
+  --font-family-poppins: "Poppins", sans-serif;
+  --dark01: #3A3A3A;
+  --pink01: #E02C6D;
+  --white: #ffffff;
+  --font-size01: 1rem;
+}
+/* css variables */
+/* header section starts here */
+.header_section {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+/* Nav section starts here */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo_title {
+  font-family: var(--font-family-poppins);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.nav_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+}
+.nav_links li {
+  list-style: none;
+  padding-bottom: 10px;
+  border-bottom: 3px solid transparent;
+}
+.li_1:hover {
+  border-bottom: 3px solid green;
+}
+.li_2:hover {
+  border-bottom: 3px solid orangered;
+}
+.li_3:hover {
+  border-bottom: 3px solid slateblue;
+}
+.li_4:hover {
+  border-bottom: 3px solid #adb84a;
+}
+.nav_link {
+  font-family: var(--font-family-poppins);
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--dark01);
+}
+#search_icon {
+  width: 24px;
+  height: 24px;
+  font-size: 1.5rem;
+  color: var(--dark01);
+  transition: transform 0.3s linear;
+}
+#search_icon:hover {
+  transform: scale(1.35);
+}
+#cart_icon {
+  width: 36px;
+  height: 36px;
+  font-size: 2.12rem;
+  color: var(--dark01);
+}
+/* Nav section ends here */
+/* banner section Starts here */
+.banner_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+.banner_info_section {
+  width: 582px;
+  height: 270px;
+}
+.banner_title {
+  font-family: var(--font-family-poppins);
+  font-size: 3.12rem;
+  font-weight: 700;
+  color: var(--dark01);
+}
+.banner_subtitle {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size01);
+  font-weight: 500;
+  color: var(--dark01);
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+.prebook_btn {
+  width: 196px;
+  height: 44px;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size01);
+  border-radius: 30px;
+  border: 0;
+  padding: 10px 24px;
+  background-color: var(--pink01);
+  color: var(--white);
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.prebook_btn:hover {
+  transform: translateX(30px);
+  background-color: #56a6c5;
+  color: black;
+}
+.img_section {
+  width: 475px;
+  height: 475px;
+  background-image: url("../images/Circle\ design.svg");
+  background-repeat: no-repeat;
+}
+.img_section {
+  display: flex;
+  align-items: center;
+}
+.img_section img {
+  transition: transform 0.5s linear;
+}
+.img_section img:hover {
+  transform: rotate(42deg);
+}
+/* banner section ends here */
+/* header section ends here */
