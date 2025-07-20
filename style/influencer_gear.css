@@ -245,6 +245,9 @@ body {
   margin-top: 56px;
   cursor: pointer;
 }
+.end_subtitle:hover {
+  color: orange;
+}
 /* Popular Collection section ends here */
 /* Feature product section Starts here */
 .Feature_product_section {
@@ -279,3 +282,47 @@ body {
 }
 /* Feature product section Ends here */
 /*? main section ends here */
+
+/*? Footer section Starts here */
+.footer_section {
+  background-color: #040021;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_card {
+  width: 262px;
+  height: 140px;
+  text-align: center;
+  margin-block: 50px;
+}
+.footer_title {
+  font-family: var(--font-family-poppins);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+}
+.copyright_text {
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-block: 13px;
+}
+.social_media_icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.social_media_icons i {
+  background-color: rgba(83, 82, 82, 0.4);
+  padding: 8px;
+  font-size: 1.2rem;
+  color: #ffffff;
+  border-radius: 50%;
+  transition: transform 0.3s linear;
+}
+.social_media_icons i:hover {
+  transform: rotate(45deg) scale(1.17);
+}
+/*? Footer section ends here */
