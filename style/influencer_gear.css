@@ -446,5 +446,13 @@ body {
     margin: 24px auto;
     font-size: 0.9rem;
   }
+  .sponsors_section {
+    width: 80%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+  .sponsors_section img {
+    width: 50%;
+  }
 }
 /*? Responsive for medium devices ends here*/
