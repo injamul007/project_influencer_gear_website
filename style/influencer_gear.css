@@ -35,16 +35,21 @@ body {
   color: black;
 }
 /* css btn common property */
-/* header section starts here */
+/*? header section starts here */
 .header_section {
   max-width: 1200px;
   margin: 50px auto;
 }
-/* Nav section starts here */
+/*? Nav section starts here */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.menu_bar{
+  font-size: 2.12rem;
+  color: var(--dark01);
+  display: none;
 }
 .logo_title {
   font-family: var(--font-family-poppins);
@@ -55,7 +60,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 36px;
+  gap: 24px;
+}
+.special_links {
+  display: flex;
+  gap: 26px;
+  align-items: center;
 }
 .nav_links li {
   list-style: none;
@@ -326,3 +336,61 @@ body {
   transform: rotate(45deg) scale(1.17);
 }
 /*? Footer section ends here */
+
+/*? Responsive for small/mobile devices starts here */
+/*! this will be delete after responsive done  */
+.display_none {
+  display: none;
+}
+/*! this will be delete after responsive done  */
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    justify-content: space-around;
+  }
+  .menu_bar {
+    display: block;
+    font-size: 1.8rem;
+  }
+  .logo_title {
+    font-size: 1rem;
+  }
+  #cart_icon {
+    font-size: 1.8rem;
+  }
+  .special_links {
+    display: none;
+  }
+  .banner_section {
+    flex-direction: column-reverse;
+    margin: 20px 0;
+  }
+  .img_section {
+    background-size: 100% 100%;
+    background-position: center;
+    width: 90%;
+    height: 50vh;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .img_section img{
+    background-size: 100% 100%;
+    background-position: center;
+    width: 80%;
+  }
+  .banner_info_section {
+    width: 100%;
+    text-align: center;
+  }
+  .banner_title {
+    font-size: 1.75rem;
+  }
+  .banner_subtitle {
+    max-width: 80%;
+    margin: 24px auto;
+    font-size: 0.9rem;
+  }
+}
+/*? Responsive for small/mobile devices  ends here*/
+
+
