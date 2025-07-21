@@ -422,6 +422,7 @@ body {
     margin: 0 auto;
     height: 100%;
     text-align: center;
+    text-wrap: balance;
   }
   .feature_title {
     font-size: 1.75rem;
