@@ -398,6 +398,9 @@ body {
   .sponsors_section img {
     width: 94%;
   }
+  .popular_collection_section {
+    height: 100%;
+  }
   .card_box_section {
   max-width: 90%;
   margin: 0 auto;
@@ -407,6 +410,34 @@ body {
   }
   .end_subtitle {
     text-align: center;
+  }
+  .Feature_product_section {
+    flex-direction: column-reverse;
+    max-width: 80%;
+    margin: 80px auto;
+    height: 100%;
+  }
+  .Feature_productions_info {
+    max-width: 96%;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+  }
+  .feature_title {
+    font-size: 1.75rem;
+  }
+  .feature_subtitle {
+    max-width: 100%;
+    margin: 16px auto;
+    height: 100%;
+    height: auto;
+    font-size: 0.93rem;
+  }
+  .join_now_btn {
+    margin-bottom: 24px;
+  }
+  .gear_img_box img{
+    width: 100%;
   }
 }
 /*? Responsive for small/mobile devices  ends here*/
