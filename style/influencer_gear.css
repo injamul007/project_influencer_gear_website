@@ -394,3 +394,49 @@ body {
 /*? Responsive for small/mobile devices  ends here*/
 
 
+/*? Responsive for medium devices starts here*/
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .navbar {
+    justify-content: space-around;
+    align-items: center;
+  }
+  .logo_title {
+    font-size: 1.2rem;
+  }
+  .nav_links li a {
+    font-size: 0.9rem;
+  }
+  #cart_icon {
+    font-size: 1.6rem;
+  }
+  .banner_section {
+    width: 96%;
+  }
+  .img_section {
+    background-size: 100% 100%;
+    background-position: center;
+    width: 90%;
+    height: 50vh;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .img_section img{
+    background-size: 100% 100%;
+    background-position: center;
+    width: 80%;
+  }
+  .banner_info_section {
+    width: 100%;
+    text-align: center;
+  }
+  .banner_title {
+    font-size: 1.75rem;
+  }
+  .banner_subtitle {
+    max-width: 80%;
+    margin: 24px auto;
+    font-size: 0.9rem;
+  }
+}
+/*? Responsive for medium devices ends here*/
