@@ -165,8 +165,8 @@ body {
   height: 110px;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  align-items: center;
   place-items: center;
+  align-items: center;
   border-block: 2px solid #ebeaea;
 }
 /* Sponsors section ends here */
@@ -389,6 +389,14 @@ body {
     max-width: 80%;
     margin: 24px auto;
     font-size: 0.9rem;
+  }
+  .sponsors_section {
+    width: 80%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+  .sponsors_section img {
+    width: 94%;
   }
 }
 /*? Responsive for small/mobile devices  ends here*/
