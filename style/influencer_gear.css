@@ -338,11 +338,6 @@ body {
 /*? Footer section ends here */
 
 /*? Responsive for small/mobile devices starts here */
-/*! this will be delete after responsive done  */
-.display_none {
-  display: none;
-}
-/*! this will be delete after responsive done  */
 
 @media screen and (max-width: 576px) {
   .navbar {
