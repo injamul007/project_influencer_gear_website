@@ -461,5 +461,12 @@ body {
   .sponsors_section img {
     width: 50%;
   }
+  .card_box_section {
+  max-width: 90%;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  gap: 24px;
+  }
 }
 /*? Responsive for medium devices ends here*/
